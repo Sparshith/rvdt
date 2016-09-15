@@ -4,76 +4,58 @@
 
 ini_set('display_errors', 1);
 include 'includes/application_top.php';
+$_title = 'Matchups | RVDT 2016';
+
+
+$table_contents = '';
+
+for($i = 0; $i < 11; $i++) {
+  $table_contents .= '
+     <tr>
+        <td>Venue</td>
+        <td>Team1</td>
+        <td>Team2</td>
+        <td>Team3</td>
+        <td>Team4</td>
+      </tr>
+  ';
+}
+
+/*
+Final logic should be this
+
+foreach($matches as $match) {
+
+}
+
+*/
 
 ?>
 
 <html>
-<head>
-  <!-- Standard Meta -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UxA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <!-- Site Properties -->
-  <title>Matchups | RVDT 2016</title>
-  <link rel="stylesheet" type="text/css" href="components/reset.css">
-  <link rel="stylesheet" type="text/css" href="components/site.css">
-
-  <link rel="stylesheet" type="text/css" href="components/container.css">
-  <link rel="stylesheet" type="text/css" href="components/grid.css">
-  <link rel="stylesheet" type="text/css" href="components/header.css">
-  <link rel="stylesheet" type="text/css" href="components/image.css">
-  <link rel="stylesheet" type="text/css" href="components/menu.css">
-  <link rel="stylesheet" type="text/css" href="components/table.css">
-  <link rel="stylesheet" type="text/css" href="components/divider.css">
-  <link rel="stylesheet" type="text/css" href="components/dropdown.css">
-  <link rel="stylesheet" type="text/css" href="components/segment.css">
-  <link rel="stylesheet" type="text/css" href="components/button.css">
-  <link rel="stylesheet" type="text/css" href="components/list.css">
-  <link rel="stylesheet" type="text/css" href="components/icon.css">
-  <link rel="stylesheet" type="text/css" href="components/sidebar.css">
-  <link rel="stylesheet" type="text/css" href="components/transition.css">
-
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="components/visibility.js"></script>
-  <script src="components/sidebar.js"></script>
-  <script src="components/transition.js"></script>
-  <script>
-  $(document)
-    .ready(function() {
-
-      // fix menu when passed
-      $('.masthead')
-        .visibility({
-          once: false,
-          onBottomPassed: function() {
-            $('.fixed.menu').transition('fade in');
-          },
-          onBottomPassedReverse: function() {
-            $('.fixed.menu').transition('fade out');
-          }
-        })
-      ;
-
-      // create sidebar and attach to menu open
-      $('.ui.sidebar')
-        .sidebar('attach events', '.toc.item')
-      ;
-
-    })
-  ;
-  </script>
-</head>
+<?php include 'meta.php'; ?>
 <body class="wrapper">
-
-<?php
-    include 'includes/header.php';
-?>
 
 <!-- Page Contents -->
 <div class="pusher">
-  
+  <?php include 'includes/header.php'; ?>
+  <div class="mr10 mtop20 <?php echo $user_device == 'mobile' ? 'ml10 mbot10' : ''; ?>">
+    <div class="ui header <?php echo $user_device == 'desktop' ? 'large' : ''; ?>">Round 1</div>
+  </div>
+  <table class="ui celled table">
+    <thead>
+      <tr>
+        <th>Venue</th>
+        <th>Opening Government</th>
+        <th>Opening Oppposition</th>
+        <th>Closing Government</th>
+        <th>Closing Opposition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php echo $table_contents; ?> 
+    </tbody>
+  </table>
 </div>
 
 </body>
