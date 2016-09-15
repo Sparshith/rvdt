@@ -16,8 +16,8 @@
 
 @font-face {
   font-family: 'Icons';
-  src: url("/stylesheets/semantic/themes/default/assets/zfonts/icons.eot");
-  src: url("/stylesheets/semantic/themes/default/assets/zfonts/icons.eot?#iefix") format('embedded-opentype'), url("/stylesheets/semantic/themes/default/assets/zfonts/icons.woff2") format('woff2'), url("/stylesheets/semantic/themes/default/assets/zfonts/icons.woff") format('woff'), url("/stylesheets/semantic/themes/default/assets/zfonts/icons.ttf") format('truetype'), url("/stylesheets/semantic/themes/default/assets/zfonts/icons.svg#icons") format('svg');
+  src: url("./fonticons/icons.eot");
+  src: url("./fonticons/icons.eot?#iefix") format('embedded-opentype'), url("./fonticons/icons.woff2") format('woff2'), url("./fonticons/icons.woff") format('woff'), url("./fonticons/icons.ttf") format('truetype'), url("./fonticons/icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
