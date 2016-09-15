@@ -7,9 +7,9 @@
           <i class="sidebar icon"></i>
         </a>
         <a class="active item">Home</a>
-        <a class="item">Matchups</a>
-        <a class="item">Teams</a>
-        <a class="item">Judges</a>
+        <a href="/matchups" class="item">Matchups</a>
+        <a href="/teams" class="item">Teams</a>
+        <a href="/judges" class="item">Judges</a>
       <div class="right item">
         <div class=mr10>
           <a class="ui inverted button">Contact</a>
@@ -19,4 +19,14 @@
         </div>
       </div>
     </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  <a class="active item">Home</a>
+  <a class="item">Matchups</a>
+  <a class="item">Teams</a>
+  <a class="item">Judges</a>
+  <a class="item">Call</a>
+  <a class="item">Schedule</a>
 </div>
