@@ -4,104 +4,19 @@
 
 ini_set('display_errors', 1);
 include 'includes/application_top.php';
+$_title = 'RV Debating Tournament 2016';
 
 ?>
-
 <html>
-<head>
-  <!-- Standard Meta -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <!-- Site Properties -->
-  <title>RV Debating Tournament 2016</title>
-  <link rel="stylesheet" type="text/css" href="components/reset.css">
-  <link rel="stylesheet" type="text/css" href="components/site.css">
-
-  <link rel="stylesheet" type="text/css" href="components/container.css">
-  <link rel="stylesheet" type="text/css" href="components/grid.css">
-  <link rel="stylesheet" type="text/css" href="components/header.css">
-  <link rel="stylesheet" type="text/css" href="components/image.css">
-  <link rel="stylesheet" type="text/css" href="components/menu.css">
-
-  <link rel="stylesheet" type="text/css" href="components/divider.css">
-  <link rel="stylesheet" type="text/css" href="components/dropdown.css">
-  <link rel="stylesheet" type="text/css" href="components/segment.css">
-  <link rel="stylesheet" type="text/css" href="components/button.css">
-  <link rel="stylesheet" type="text/css" href="components/list.css">
-  <link rel="stylesheet" type="text/css" href="components/icon.css">
-  <link rel="stylesheet" type="text/css" href="components/sidebar.css">
-  <link rel="stylesheet" type="text/css" href="components/transition.css">
-
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-
-  <script src="assets/library/jquery.min.js"></script>
-  <script src="components/visibility.js"></script>
-  <script src="components/sidebar.js"></script>
-  <script src="components/transition.js"></script>
-  <script>
-  $(document)
-    .ready(function() {
-
-      // fix menu when passed
-      $('.masthead')
-        .visibility({
-          once: false,
-          onBottomPassed: function() {
-            $('.fixed.menu').transition('fade in');
-          },
-          onBottomPassedReverse: function() {
-            $('.fixed.menu').transition('fade out');
-          }
-        })
-      ;
-
-      // create sidebar and attach to menu open
-      $('.ui.sidebar')
-        .sidebar('attach events', '.toc.item')
-      ;
-
-    })
-  ;
-  </script>
-</head>
+<?php include 'meta.php'; ?>
 <body class="wrapper">
-
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-  <div class="ui container">
-      <a class="active item">Home</a>
-      <a class="item">Matchups</a>
-      <a class="item">Teams</a>
-      <a class="item">Judges</a>
-    <div class="right menu">
-      <div class="item">
-        <a class="ui button">Log in</a>
-      </div>
-      <div class="item">
-        <a class="ui primary button">Sign Up</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-  <a class="active item">Home</a>
-  <a class="item">Matchups</a>
-  <a class="item">Teams</a>
-  <a class="item">Judges</a>
-  <a class="item">Call</a>
-  <a class="item">Schedule</a>
-</div>
-
-<?php
-    include 'includes/header.php';
-?>
 
 <!-- Page Contents -->
 <div class="pusher">
+  <?php
+    include 'includes/header.php';
+  ?>
+
   <div class="ui inverted vertical masthead center aligned segment">
     <div class="ui text container">
       <h1 class="ui inverted header">
