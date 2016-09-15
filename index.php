@@ -12,7 +12,6 @@
 
   <!-- Site Properties -->
   <title>RV Debating Tournament 2016</title>
-
   <link rel="stylesheet" type="text/css" href="components/reset.css">
   <link rel="stylesheet" type="text/css" href="components/site.css">
 
@@ -31,96 +30,7 @@
   <link rel="stylesheet" type="text/css" href="components/sidebar.css">
   <link rel="stylesheet" type="text/css" href="components/transition.css">
 
-
-  <style type="text/css">
-
-    .hidden.menu {
-      display: none;
-    }
-
-    .masthead.segment {
-      min-height: 700px;
-      padding: 1em 0em;
-    }
-    .masthead .logo.item img {
-      margin-right: 1em;
-    }
-    .masthead .ui.menu .ui.button {
-      margin-left: 0.5em;
-    }
-    .masthead h1.ui.header {
-      margin-top: 3em;
-      margin-bottom: 0em;
-      font-size: 4em;
-      font-weight: normal;
-    }
-    .masthead h2 {
-      font-size: 1.7em;
-      font-weight: normal;
-    }
-
-    .ui.vertical.stripe {
-      padding: 8em 0em;
-    }
-    .ui.vertical.stripe h3 {
-      font-size: 2em;
-    }
-    .ui.vertical.stripe .button + h3,
-    .ui.vertical.stripe p + h3 {
-      margin-top: 3em;
-    }
-    .ui.vertical.stripe .floated.image {
-      clear: both;
-    }
-    .ui.vertical.stripe p {
-      font-size: 1.33em;
-    }
-    .ui.vertical.stripe .horizontal.divider {
-      margin: 3em 0em;
-    }
-
-    .quote.stripe.segment {
-      padding: 0em;
-    }
-    .quote.stripe.segment .grid .column {
-      padding-top: 5em;
-      padding-bottom: 5em;
-    }
-
-    .footer.segment {
-      padding: 5em 0em;
-    }
-
-    .secondary.pointing.menu .toc.item {
-      display: none;
-    }
-
-    @media only screen and (max-width: 700px) {
-      .ui.fixed.menu {
-        display: none !important;
-      }
-      .secondary.pointing.menu .item,
-      .secondary.pointing.menu .menu {
-        display: none;
-      }
-      .secondary.pointing.menu .toc.item {
-        display: block;
-      }
-      .masthead.segment {
-        min-height: 350px;
-      }
-      .masthead h1.ui.header {
-        font-size: 2em;
-        margin-top: 1.5em;
-      }
-      .masthead h2 {
-        margin-top: 0.5em;
-        font-size: 1.5em;
-      }
-    }
-
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 
   <script src="assets/library/jquery.min.js"></script>
   <script src="components/visibility.js"></script>
@@ -152,15 +62,15 @@
   ;
   </script>
 </head>
-<body>
+<body class="wrapper">
 
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
     <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
+    <a class="item">Matchups</a>
+    <a class="item">Teams</a>
+    <a class="item">Judges</a>
     <div class="right menu">
       <div class="item">
         <a class="ui button">Log in</a>
@@ -175,11 +85,11 @@
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
   <a class="active item">Home</a>
-  <a class="item">Work</a>
-  <a class="item">Company</a>
-  <a class="item">Careers</a>
-  <a class="item">Login</a>
-  <a class="item">Signup</a>
+  <a class="item">Matchups</a>
+  <a class="item">Teams</a>
+  <a class="item">Judges</a>
+  <a class="item">Call</a>
+  <a class="item">Schedule</a>
 </div>
 
 
@@ -193,22 +103,21 @@
           <i class="sidebar icon"></i>
         </a>
         <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
+        <a class="item">Matchups</a>
+        <a class="item">Teams</a>
+        <a class="item">Judges</a>
         <div class="right item">
-          <a class="ui inverted button">Log in</a>
-          <a class="ui inverted button">Sign Up</a>
+          <a class="ui inverted button">Contact</a>
+          <a class="ui inverted button">Schedule</a>
         </div>
       </div>
     </div>
 
     <div class="ui text container">
       <h1 class="ui inverted header">
-        Imagine-a-Company
+        RV Debating Tournament 2016
       </h1>
-      <h2>Do whatever you want when you want to.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+      <h2>16th to 18th September</h2>
     </div>
 
   </div>
@@ -218,7 +127,7 @@
       <div class="row">
         <div class="eight wide column">
           <h3 class="ui header">We Help Companies and Companions</h3>
-          <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
+          <p>We can give your Teams superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
           <h3 class="ui header">We Make Bananas That Can Dance</h3>
           <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
         </div>
@@ -239,7 +148,7 @@
     <div class="ui equal width stackable internally celled grid">
       <div class="center aligned row">
         <div class="column">
-          <h3>"What a Company"</h3>
+          <h3>"What a Teams"</h3>
           <p>That is what they all say about us</p>
         </div>
         <div class="column">
@@ -255,7 +164,7 @@
   <div class="ui vertical stripe segment">
     <div class="ui text container">
       <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-      <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+      <p>Instead of focusing on content creation and hard Matchups, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
       <a class="ui large button">Read More</a>
       <h4 class="ui horizontal header divider">
         <a href="#">Case Studies</a>
