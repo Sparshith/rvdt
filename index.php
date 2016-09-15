@@ -1,8 +1,12 @@
+<!DOCTYPE html>
+
 <?php
+
+ini_set('display_errors', 1);
+include 'includes/application_top.php';
 
 ?>
 
-<!DOCTYPE html>
 <html>
 <head>
   <!-- Standard Meta -->
@@ -67,10 +71,10 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    <a class="active item">Home</a>
-    <a class="item">Matchups</a>
-    <a class="item">Teams</a>
-    <a class="item">Judges</a>
+      <a class="active item">Home</a>
+      <a class="item">Matchups</a>
+      <a class="item">Teams</a>
+      <a class="item">Judges</a>
     <div class="right menu">
       <div class="item">
         <a class="ui button">Log in</a>
@@ -92,27 +96,13 @@
   <a class="item">Schedule</a>
 </div>
 
+<?php
+    include 'includes/header.php';
+?>
 
 <!-- Page Contents -->
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment">
-
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">Home</a>
-        <a class="item">Matchups</a>
-        <a class="item">Teams</a>
-        <a class="item">Judges</a>
-        <div class="right item">
-          <a class="ui inverted button">Contact</a>
-          <a class="ui inverted button">Schedule</a>
-        </div>
-      </div>
-    </div>
-
     <div class="ui text container">
       <h1 class="ui inverted header">
         RV Debating Tournament 2016
