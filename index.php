@@ -17,9 +17,9 @@ $_title = 'RV Debating Tournament 2016';
     include 'includes/header.php';
   ?>
 
-  <div class="ui inverted vertical masthead center aligned segment">
+  <div class="ui inverted vertical masthead center aligned segment bg-image" style="background-image: url('images/contingent.png');background-size:cover;background-position:center;">
     <div class="ui text container">
-      <h1 class="ui inverted header">
+      <h1 class="ui inverted header" style="margin-top:0;font-size:2.5em">
         RV Debating Tournament 2016
       </h1>
       <h2>16th to 18th September</h2>
@@ -28,21 +28,34 @@ $_title = 'RV Debating Tournament 2016';
   </div>
 
   <div class="ui vertical stripe segment">
+    <div class="ui text container">
+      <div class="timer-container">
+        <h3 class="ui header">Countdown to the next round</h3>
+        <p>Please assemble at the Seminar hall</p>
+        <div class="countdown-styled"></div>
+      </div>
+      <div class="ui divider"></div>
+      <div class="matchups-containter">
+        <h3 class="ui header">Matchups for the current round</h3>
+        <p>Do you want to look at your matchup without having to tackle down the obnoxious tall person who randomly stands up everytime while the matchups scrolls through in 2 seconds?</p>
+        <a href="/matchups.php" class="ui large button">See matchups</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
       <div class="row">
         <div class="eight wide column">
-          <h3 class="ui header">We Help Companies and Companions</h3>
-          <p>We can give your Teams superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-          <h3 class="ui header">We Make Bananas That Can Dance</h3>
-          <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
+          <h3 class="ui header">Customary history</h3>
+          <p>Started in 2007 to establish a stage for debating in India, the championship has been a benchmark of quality debating and adjudication, thereby raising the standards of parliamentary debate in the country.</p>
+    <!--       <h3 class="ui header">Scroll down already</h3>
+          <p>
+            The tournament has witnessed participation from some of the most reputed institutions in the field of debating, such as Ateneo De Manila Philippines, National Law School Bangalore, Delhi University, Christ University, NUJS Kolkata, MS Ramaiah Institute of Technology, Symbiosis Pune, Vellore Institute of Technology and more
+        </p> -->
         </div>
         <div class="six wide right floated column">
-          <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a class="ui huge button">Check Them Out</a>
+          <img src="images/history.jpg" class="ui large bordered rounded image">
         </div>
       </div>
     </div>
@@ -53,58 +66,14 @@ $_title = 'RV Debating Tournament 2016';
     <div class="ui equal width stackable internally celled grid">
       <div class="center aligned row">
         <div class="column">
-          <h3>"What a Teams"</h3>
-          <p>That is what they all say about us</p>
+          <h3>Which institutions have debated at RVDT?</h3>
+          <p> Ateneo De Manila Philippines, Nanyang Technological University, National Law School Bangalore,  Delhi University, NUJS Kolkata, Vellore Institute of Technology and more.</p>
         </div>
         <div class="column">
-          <h3>"I shouldn't have gone with their competitor."</h3>
+          <h3>Who are the defending champs?</h3>
           <p>
-            <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+            <img src="images/favicon.jpg" class="ui avatar image">  Saharsh and Srijesh, <b>Vellore Institute of Technology</b>
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-      <p>Instead of focusing on content creation and hard Matchups, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-      <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
-        <a href="#">Case Studies</a>
-      </h4>
-      <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-      <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-      <a class="ui large button">I'm Still Quite Interested</a>
-    </div>
-  </div>
-
-
-  <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-      <div class="ui stackable inverted divided equal height stackable grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
     </div>

@@ -1,13 +1,15 @@
 <?php
 
+$url = $_SERVER['REQUEST_URI'];
+
 ?>
 <div class="ui container rv-header <?php echo ($user_device != 'mobile')  ? 'mbot10 pbot10 ptop10 pl10 pr10' : ''; ?>">
     <div class="ui large secondary inverted pointing menu">
         <a class="toc item ln30">
           <i class="sidebar icon"></i>
         </a>
-        <a class="active item ln30">Home</a>
-        <a href="/matchups" class="item ln30">Matchups</a>
+        <a href="/index.php" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index.php') ? 'active': ''; ?>">Home</a>
+        <a href="/matchups.php" class="item ln30 <?php echo ($url == '/matchups.php') ? 'active': ''; ?>">Matchups</a>
         <a href="/teams" class="item ln30">Teams</a>
         <a href="/judges" class="item ln30">Judges</a>
       <div class="right item">
@@ -25,7 +27,7 @@
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
     <a class="active item">Home</a>
-    <a href="/matchups" class="item">Matchups</a>
+    <a href="/matchups.php" class="item">Matchups</a>
     <a href="/teams" class="item">Teams</a>
     <a href="/judges" class="item">Judges</a>
     <a class="item">Call</a>
