@@ -16,6 +16,8 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://rvcedebsoc.com/" />
   <meta property="og:image" content="http://rvcedebsoc.com/images/history.jpg" />
+  <link rel="shortcut icon" href="images/rvfavicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/rvfavicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="components/reset.css">
   <link rel="stylesheet" type="text/css" href="components/site.css">
 
