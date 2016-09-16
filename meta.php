@@ -36,6 +36,7 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.countdown.js"></script>
   <script src="components/visibility.js"></script>
   <script src="components/sidebar.js"></script>
   <script src="components/transition.js"></script>
@@ -56,6 +57,16 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
         })
       ;
 
+     $('.countdown-styled').countdown({
+        date: "September 16, 2016 15:03:26",
+        render: function(data) {
+          var el = $(this.el);
+          el.empty()
+            .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div>")
+            .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
+            .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+        }
+      });
       // create sidebar and attach to menu open
       $('.ui.sidebar')
         .sidebar('attach events', '.toc.item')
