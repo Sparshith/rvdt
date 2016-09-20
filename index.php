@@ -38,7 +38,7 @@ $_title = 'RV Debating Tournament 2016';
       <div class="matchups-containter">
         <h3 class="ui header">Matchups for the current round</h3>
         <p>Do you want to look at your matchup without having to tackle down the obnoxious tall person who randomly stands up and in mid-air, spot your match while the screen scrolls away to glory?</p>
-        <a href="/matchups.php" class="ui large button">See matchups</a>
+        <a href="/matchups" class="ui large button">See matchups</a>
       </div>
     </div>
   </div>
