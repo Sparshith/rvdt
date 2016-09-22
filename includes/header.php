@@ -8,7 +8,7 @@ $url = $_SERVER['REQUEST_URI'];
         <a class="toc item ln30">
           <i class="sidebar icon"></i>
         </a>
-        <a href="/index" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'active': ''; ?>">Home</a>
+        <a href="/" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'active': ''; ?>">Home</a>
         <a href="/matchups" class="item ln30 <?php echo ($url == '/matchups') ? 'active': ''; ?>">Matchups</a>
         <a href="/teams" class="item ln30">Teams</a>
         <a href="/judges" class="item ln30">Judges</a>
