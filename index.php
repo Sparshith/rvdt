@@ -17,14 +17,18 @@ $_title = 'RV Debating Tournament 2016';
     include 'includes/header.php';
   ?>
 
-  <div class="ui inverted vertical masthead center aligned segment bg-image" style="background-image: url('images/contingent.png');background-size:cover;background-position:center;">
-    <div class="ui text container">
-      <h1 class="ui inverted header" style="margin-top:0;font-size:2.5em">
-        RV Debating Tournament 2016
-      </h1>
-      <h2>16th to 18th September</h2>
-    </div>
 
+  <div class="ui inverted vertical masthead center aligned segment bg-image" style="background-image: url('images/rvdt4.png');background-size:cover;background-position:center;border-radius:4px;">
+    	<div class="overlay">
+    		<div class="ui text container">
+          			<h1 class="ui inverted header" style="margin-top:0;font-size:2.5em;letter-spacing:1px;">
+           				RV Debating Tournament 2016
+          			</h1>
+          			<h2>
+    				16th to 18th September
+    			</h2>
+       		 </div>
+	   </div>
   </div>
 
   <div class="ui vertical stripe segment">

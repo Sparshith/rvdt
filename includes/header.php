@@ -3,13 +3,13 @@
 $url = $_SERVER['REQUEST_URI'];
 
 ?>
-<div class="ui container rv-header <?php echo ($user_device != 'mobile')  ? 'mbot10 pbot10 ptop10 pl10 pr10' : ''; ?>">
+<div class="ui container rv-header <?php echo ($user_device != 'mobile')  ? 'mbot10' : ''; ?>">
     <div class="ui large secondary inverted pointing menu">
         <a class="toc item ln30">
           <i class="sidebar icon"></i>
         </a>
-        <a href="/" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'active': ''; ?>">Home</a>
-        <a href="/matchups" class="item ln30 <?php echo ($url == '/matchups') ? 'active': ''; ?>">Matchups</a>
+        <a href="/" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'current-page': ''; ?>">Home</a>
+        <a href="/matchups" class="item ln30 <?php echo ($url == '/matchups') ? 'current-page': ''; ?>">Matchups</a>
         <a href="/teams" class="item ln30">Teams</a>
         <a href="/judges" class="item ln30">Judges</a>
       <div class="right item">
@@ -26,7 +26,7 @@ $url = $_SERVER['REQUEST_URI'];
 <?php if($user_device == 'mobile') { ?>
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
+    <a class=" item">Home</a>
     <a href="/matchups.php" class="item">Matchups</a>
     <a href="/teams" class="item">Teams</a>
     <a href="/judges" class="item">Judges</a>
