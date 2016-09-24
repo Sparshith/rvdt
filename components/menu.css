@@ -956,7 +956,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .dropdown.item:hover,
 .ui.secondary.pointing.menu .link.item:hover,
 .ui.secondary.pointing.menu a.item:hover {
-  background-color: transparent;
+  background-color: #2d2d2d;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -1350,7 +1350,6 @@ Floated Menu / Item
 ---------------*/
 
 .ui.inverted.menu {
-  border: 0px solid transparent;
   background: #1b1c1d;
   box-shadow: none;
 }
