@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<adjudicators>
+  <adjud name="Shubham " class="3" home="MSRCL" id="0">
+    <home>MSRCL</home>
+  </adjud>
+  <adjud name="Lekha G D" class="3" home="MSRCL" id="1">
+    <home>MSRCL</home>
+  </adjud>
+  <adjud name="Sakthishwetha" class="2" home="MSRCL" id="2">
+    <home>MSRCL</home>
+  </adjud>
+  <adjud name="Manvendra Singh" class="4" home="CU" id="3">
+    <home>CU</home>
+  </adjud>
+  <adjud name="K V Maoj " class="3" home="MSRCL" id="4">
+    <home>MSRCL</home>
+  </adjud>
+  <adjud name="Lalit Sharma" class="3" home="NALSAR" id="5">
+    <home>NALSAR</home>
+  </adjud>
+  <adjud name="Archanaa P" class="2" home="NITK" id="6">
+    <home>NITK</home>
+  </adjud>
+  <adjud name="Alan Joel Cooper" class="4" home="SMVIT" id="7">
+    <home>SMVIT</home>
+  </adjud>
+  <adjud name="Ratik Shetty" class="4" home="CU" id="8">
+    <home>CU</home>
+  </adjud>
+  <adjud name="Apurv Jain" class="6" home="NLSIU" id="9">
+    <home>NLSIU</home>
+  </adjud>
+  <adjud name="Neha" class="4" home="RVCE" id="10">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Vasundara" class="6" home="RVCE" id="11">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="C K Anisha" class="5" home="SLCU" id="12">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Akshat Sharma" class="5" home="USLLS" id="13">
+    <home>USLLS</home>
+  </adjud>
+  <adjud name="Siri Narla" class="4" home="BITSH" id="14">
+    <home>BITSH</home>
+  </adjud>
+  <adjud name="Arvind A S" class="6" home="BITSH" id="15">
+    <home>BITSH</home>
+  </adjud>
+  <adjud name="Nikhil Vijayaanambi" class="6" home="NALSAR" id="16">
+    <home>NALSAR</home>
+  </adjud>
+  <adjud name="Shruti" class="5" home="RVCE" id="17">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Abhinaya S" class="5" home="SLCU" id="18">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Ritika" class="6" home="SLCU" id="19">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Sneha Gupta" class="4" home="SLCU" id="20">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Sruti" class="5" home="RVCE" id="21">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Apoorva" class="6" home="RVCE" id="22">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Bansal" class="7" home="SLCU" id="23">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Uddeepan Sen" class="5" home="SSE" id="24">
+    <home>SSE</home>
+  </adjud>
+  <adjud name="Aniruddha Deshpande" class="7" home="IITB" id="25">
+    <home>IITB</home>
+  </adjud>
+  <adjud name="Ashwij" class="8" home="NLSIU" id="26">
+    <home>NLSIU</home>
+    <teamconflict>5</teamconflict>
+  </adjud>
+  <adjud name="Vishakha" class="7" home="SLCU" id="27">
+    <home>SLCU</home>
+  </adjud>
+  <adjud name="Sukrut" class="8" home="MSRIT" id="28">
+    <home>MSRIT</home>
+  </adjud>
+  <adjud name="Basu" class="9" home="NLSIU" id="29">
+    <home>NLSIU</home>
+  </adjud>
+  <adjud name="Yarn" class="8" home="NTU" id="30">
+    <home>NTU</home>
+  </adjud>
+  <adjud name="Manasa" class="8" home="RVCE" id="31">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Jainah" class="0" home="UTMARA" id="32">
+    <home>UTMARA</home>
+  </adjud>
+  <adjud name="Amol " class="7" home="MSRIT" id="33">
+    <home>MSRIT</home>
+  </adjud>
+  <adjud name="Piali" class="7" home="RVCE" id="34">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Nishanth" class="7" home="RVCE" id="35">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Ananth" class="7" home="RVCE" id="36">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Tushar " class="7" home="RVCE" id="37">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Advesh" class="7" home="RVCE" id="38">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Anish" class="7" home="RVCE" id="39">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Hriday" class="7" home="RVCE" id="40">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Mayank" class="6" home="RVCE" id="41">
+    <home>RVCE</home>
+  </adjud>
+  <adjud name="Sparshith" class="5" home="RVCE" id="42">
+    <home>RVCE</home>
+    <teamconflict>5</teamconflict>
+  </adjud>
+  <adjud name="Anubhuthi" class="3" home="NLSIU" id="43">
+    <home>NLSIU</home>
+  </adjud>
+</adjudicators>

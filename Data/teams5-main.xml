@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='utf-8'?>
+<round name="main" parent="main" knockout="no">
+  <team name="IIT-A" ident="6" pullups="0">
+    <home>IITB</home>
+    <positions>1 2 3 0 </positions>
+    <member name="Karan">
+      <points>315</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Ajinkya">
+      <points>319</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Debate India A" ident="2" pullups="1">
+    <home>IITB</home>
+    <positions>2 1 0 3 </positions>
+    <member name="Jaya Jain">
+      <points>311</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Souradip Sen">
+      <points>313</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS A " ident="23" pullups="1">
+    <home>NLSIU</home>
+    <positions>2 3 0 1 </positions>
+    <member name="Anirudh Nigam">
+      <points>312</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Siddhartha Athreya">
+      <points>314</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="IIT-D" ident="9" pullups="0">
+    <home>IITB</home>
+    <positions>1 2 3 0 </positions>
+    <member name="Dhruv">
+      <points>310</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Danyel">
+      <points>312</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS C" ident="25" pullups="0">
+    <home>NLSIU</home>
+    <positions>3 1 2 0 </positions>
+    <member name="Osho ">
+      <points>310</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Abhishek">
+      <points>309</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Mishti Doi" ident="10" pullups="1">
+    <home>ISB</home>
+    <home>NLSIU</home>
+    <positions>2 3 1 2 </positions>
+    <member name="Devarchan">
+      <points>309</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Srijeet">
+      <points>306</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Frenemies" ident="5" pullups="1">
+    <home>NLSIU</home>
+    <positions>3 0 1 2 </positions>
+    <member name="Amrit">
+      <points>317</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Mainak">
+      <points>311</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS E" ident="27" pullups="1">
+    <home>NLSIU</home>
+    <positions>1 0 2 3 </positions>
+    <member name="Mrinali">
+      <points>302</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Spoorthi">
+      <points>303</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NALSAR DEBATE INDIA CROSS" ident="21" pullups="1">
+    <home>NALSAR</home>
+    <positions>3 2 3 1 </positions>
+    <member name="Oorvi Mehta">
+      <points>309</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Dhananjay">
+      <points>307</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="IIT-B" ident="7" pullups="1">
+    <home>IITB</home>
+    <positions>0 1 2 3 </positions>
+    <member name="Himani">
+      <points>304</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Andasu">
+      <points>308</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NALSAR-NUJS" ident="20" pullups="1">
+    <home>NALSAR</home>
+    <home>NUJS</home>
+    <positions>0 1 3 0 </positions>
+    <member name="Rohan Singh">
+      <points>306</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Ruschir Ash">
+      <points>305</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS D" ident="26" pullups="0">
+    <home>NLSIU</home>
+    <positions>0 2 1 3 </positions>
+    <member name="Dhanush ">
+      <points>302</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Manesvini">
+      <points>305</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS B" ident="24" pullups="1">
+    <home>NLSIU</home>
+    <positions>3 1 0 2 </positions>
+    <member name="Amandeep ">
+      <points>303</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Sairam">
+      <points>303</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NALSAR B" ident="19" pullups="1">
+    <home>NALSAR</home>
+    <positions>2 0 1 3 </positions>
+    <member name="Sayan Bhattacharya">
+      <points>301</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Rohit Iyengar">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRIT B" ident="15" pullups="0">
+    <home>MSRIT</home>
+    <positions>3 1 2 0 </positions>
+    <member name="Pavan Rao">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Annirudh Prakash">
+      <points>298</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="SLCU B" ident="31" pullups="1">
+    <home>SLCU</home>
+    <positions>2 0 3 2 </positions>
+    <member name="Akarshitha">
+      <points>295</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Anisha Gupta">
+      <points>301</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Debate India B" ident="3" pullups="1">
+    <home>IITB</home>
+    <positions>3 1 0 3 </positions>
+    <member name="Heena Dabke">
+      <points>304</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Abhishek Gore">
+      <points>305</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NLS F" ident="28" pullups="1">
+    <home>NLSIU</home>
+    <positions>3 0 1 2 </positions>
+    <member name="Karundeep ">
+      <points>304</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Pranav Mehta">
+      <points>302</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Trigger Warning " ident="35" pullups="0">
+    <home>RVCE</home>
+    <positions>0 3 2 1 </positions>
+    <member name="Aashay">
+      <points>233</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Prasun">
+      <points>226</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NUALS" ident="29" pullups="0">
+    <home>NUALS</home>
+    <positions>0 1 3 2 </positions>
+    <member name="Arihant">
+      <points>302</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Athif">
+      <points>300</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="SLCU A" ident="30" pullups="1">
+    <home>SLCU</home>
+    <positions>0 3 2 1 </positions>
+    <member name="Vignesh Shanmugam">
+      <points>301</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Sholab Arora">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRIT C" ident="16" pullups="1">
+    <home>MSRIT</home>
+    <positions>3 0 2 1 </positions>
+    <member name="Faiz">
+      <points>296</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Pragyan">
+      <points>290</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="CU A" ident="1" pullups="2">
+    <home>CU</home>
+    <positions>2 3 1 0 </positions>
+    <member name="Rutuja Uttarwar">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Jayaditya Vittal">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRIT D" ident="17" pullups="1">
+    <home>MSRIT</home>
+    <positions>2 0 1 3 </positions>
+    <member name="Divyansh Lohia">
+      <points>296</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Archana">
+      <points>297</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Ezekiel 25:17" ident="4" pullups="1">
+    <home>RVCE</home>
+    <positions>1 3 0 2 </positions>
+    <member name="Saurav Goswami">
+      <points>297</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Akash">
+      <points>295</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NITK A" ident="22" pullups="1">
+    <home>NITK</home>
+    <positions>1 2 0 1 </positions>
+    <member name="Siddhanth Pillay">
+      <points>295</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Shantanu Sampath">
+      <points>292</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="IIT-C" ident="8" pullups="1">
+    <home>IITB</home>
+    <positions>0 1 3 0 </positions>
+    <member name="Pulkit">
+      <points>304</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Neha">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRIT A" ident="14" pullups="1">
+    <home>MSRIT</home>
+    <positions>1 3 0 1 </positions>
+    <member name="Gaurav Saraf">
+      <points>304</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Varun Rangarajan">
+      <points>299</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="NALSAR A " ident="18" pullups="1">
+    <home>NALSAR</home>
+    <positions>1 2 0 3 </positions>
+    <member name="Vishal V">
+      <points>302</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Prakhar B">
+      <points>295</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="BITSH" ident="0" pullups="1">
+    <home>BITSH</home>
+    <positions>3 0 1 2 </positions>
+    <member name="Palak Oswal">
+      <points>296</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Swarnima">
+      <points>293</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="SMVIT A " ident="32" pullups="1">
+    <home>SMVIT</home>
+    <positions>0 2 1 3 </positions>
+    <member name="Eyanshu Gupta">
+      <points>292</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Sukesh Narayan Kashyap">
+      <points>297</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Swing 2" ident="34" pullups="1">
+    <home>RVCE</home>
+    <positions>1 2 3 0 </positions>
+    <member name="Sanketh Harnoorkar">
+      <points>294</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Shounak">
+      <points>289</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRCL C" ident="13" pullups="2">
+    <home>MSRCL</home>
+    <positions>2 3 0 2 </positions>
+    <member name="Bharati T V">
+      <points>286</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Harshitha G G">
+      <points>289</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="Swing 1" ident="33" pullups="2">
+    <home>RVCE</home>
+    <positions>1 0 2 1 </positions>
+    <member name="Surabhi R">
+      <points>293</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Varun E">
+      <points>291</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRCL B" ident="12" pullups="2">
+    <home>MSRCL</home>
+    <positions>2 3 2 0 </positions>
+    <member name="Thasnima">
+      <points>283</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Ankita PM">
+      <points>283</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+  <team name="MSRCL A" ident="11" pullups="2">
+    <home>MSRCL</home>
+    <positions>0 2 3 1 </positions>
+    <member name="Mithun">
+      <points>277</points>
+      <rounds>4</rounds>
+    </member>
+    <member name="Omkar Prasad">
+      <points>279</points>
+      <rounds>4</rounds>
+    </member>
+  </team>
+</round>

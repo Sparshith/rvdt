@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<deb_round count="9" knockout="no" repeatless="0">
+  <motion>THBT DEVELOPED COUNTRIES SHOULD ABOLISH THE MINIMUM WAGE</motion>
+  <debate venue="0">
+    <team id="20" rankpts="1">
+      <speaker points="74"/>
+      <speaker points="75"/>
+    </team>
+    <team id="6" rankpts="3">
+      <speaker points="78"/>
+      <speaker points="79"/>
+    </team>
+    <team id="17" rankpts="0">
+      <speaker points="73"/>
+      <speaker points="72"/>
+    </team>
+    <team id="5" rankpts="2">
+      <speaker points="77"/>
+      <speaker points="76"/>
+    </team>
+  </debate>
+  <debate venue="1">
+    <team id="30" rankpts="1">
+      <speaker points="74"/>
+      <speaker points="74"/>
+    </team>
+    <team id="9" rankpts="2">
+      <speaker points="78"/>
+      <speaker points="77"/>
+    </team>
+    <team id="23" rankpts="3">
+      <speaker points="78"/>
+      <speaker points="79"/>
+    </team>
+    <team id="15" rankpts="0">
+      <speaker points="73"/>
+      <speaker points="74"/>
+    </team>
+  </debate>
+  <debate venue="2">
+    <team id="32" rankpts="1">
+      <speaker points="72"/>
+      <speaker points="74"/>
+    </team>
+    <team id="22" rankpts="2">
+      <speaker points="74"/>
+      <speaker points="73"/>
+    </team>
+    <team id="12" rankpts="0">
+      <speaker points="70"/>
+      <speaker points="71"/>
+    </team>
+    <team id="25" rankpts="3">
+      <speaker points="76"/>
+      <speaker points="76"/>
+    </team>
+  </debate>
+  <debate venue="3">
+    <team id="35" rankpts="3">
+      <speaker points="78"/>
+      <speaker points="77"/>
+    </team>
+    <team id="34" rankpts="0">
+      <speaker points="73"/>
+      <speaker points="72"/>
+    </team>
+    <team id="10" rankpts="2">
+      <speaker points="76"/>
+      <speaker points="76"/>
+    </team>
+    <team id="24" rankpts="1">
+      <speaker points="76"/>
+      <speaker points="75"/>
+    </team>
+  </debate>
+  <debate venue="4">
+    <team id="8" rankpts="1">
+      <speaker points="77"/>
+      <speaker points="75"/>
+    </team>
+    <team id="14" rankpts="2">
+      <speaker points="78"/>
+      <speaker points="77"/>
+    </team>
+    <team id="1" rankpts="0">
+      <speaker points="76"/>
+      <speaker points="74"/>
+    </team>
+    <team id="3" rankpts="3">
+      <speaker points="78"/>
+      <speaker points="80"/>
+    </team>
+  </debate>
+  <debate venue="5">
+    <team id="29" rankpts="0">
+      <speaker points="75"/>
+      <speaker points="73"/>
+    </team>
+    <team id="27" rankpts="1">
+      <speaker points="75"/>
+      <speaker points="76"/>
+    </team>
+    <team id="2" rankpts="3">
+      <speaker points="76"/>
+      <speaker points="78"/>
+    </team>
+    <team id="28" rankpts="2">
+      <speaker points="77"/>
+      <speaker points="76"/>
+    </team>
+  </debate>
+  <debate venue="6">
+    <team id="26" rankpts="3">
+      <speaker points="75"/>
+      <speaker points="76"/>
+    </team>
+    <team id="18" rankpts="1">
+      <speaker points="75"/>
+      <speaker points="74"/>
+    </team>
+    <team id="19" rankpts="2">
+      <speaker points="75"/>
+      <speaker points="75"/>
+    </team>
+    <team id="0" rankpts="0">
+      <speaker points="73"/>
+      <speaker points="73"/>
+    </team>
+  </debate>
+  <debate venue="7">
+    <team id="11" rankpts="0">
+      <speaker points="67"/>
+      <speaker points="66"/>
+    </team>
+    <team id="33" rankpts="2">
+      <speaker points="74"/>
+      <speaker points="75"/>
+    </team>
+    <team id="31" rankpts="3">
+      <speaker points="76"/>
+      <speaker points="77"/>
+    </team>
+    <team id="16" rankpts="1">
+      <speaker points="70"/>
+      <speaker points="69"/>
+    </team>
+  </debate>
+  <debate venue="8">
+    <team id="7" rankpts="1">
+      <speaker points="75"/>
+      <speaker points="76"/>
+    </team>
+    <team id="4" rankpts="2">
+      <speaker points="76"/>
+      <speaker points="76"/>
+    </team>
+    <team id="13" rankpts="0">
+      <speaker points="73"/>
+      <speaker points="74"/>
+    </team>
+    <team id="21" rankpts="3">
+      <speaker points="77"/>
+      <speaker points="76"/>
+    </team>
+  </debate>
+  <adjudicators>
+    <pair adj="24" venue="4"/>
+    <pair adj="25" venue="3"/>
+    <pair adj="26" venue="7"/>
+    <pair adj="27" venue="8"/>
+    <pair adj="28" venue="5"/>
+    <pair adj="31" venue="2"/>
+    <pair adj="39" venue="1"/>
+    <pair adj="40" venue="0"/>
+    <pair adj="41" venue="6"/>
+    <pair adj="9" venue="7"/>
+    <pair adj="15" venue="1"/>
+    <pair adj="17" venue="5"/>
+    <pair adj="19" venue="8"/>
+    <pair adj="23" venue="6"/>
+    <pair adj="33" venue="3"/>
+    <pair adj="35" venue="0"/>
+    <pair adj="37" venue="2"/>
+    <pair adj="38" venue="4"/>
+    <pair adj="3" venue="2"/>
+    <pair adj="4" venue="6"/>
+    <pair adj="5" venue="1"/>
+    <pair adj="12" venue="8"/>
+    <pair adj="13" venue="7"/>
+    <pair adj="16" venue="3"/>
+    <pair adj="21" venue="5"/>
+    <pair adj="22" venue="0"/>
+    <pair adj="34" venue="4"/>
+    <pair adj="0" venue="1"/>
+    <pair adj="10" venue="6"/>
+    <pair adj="11" venue="0"/>
+    <pair adj="14" venue="3"/>
+    <pair adj="18" venue="4"/>
+    <pair adj="20" venue="5"/>
+    <pair adj="1" venue="0"/>
+    <pair adj="2" venue="6"/>
+    <pair adj="6" venue="5"/>
+    <pair adj="7" venue="4"/>
+    <pair adj="8" venue="3"/>
+  </adjudicators>
+</deb_round>
