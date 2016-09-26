@@ -36,8 +36,6 @@ foreach ($matches as $match) {
 	$match_id++;
 }
 
-$DB->execute("UPDATE customers SET email = ? WHERE username = ?", array('newemail@domain.com', 'a1phanumeric'));
-
 function InsertEntryInTheDB($round_id, $match_id,$team_id, $position_id) {
 	global $DB;
 	// print_r(array($round_id, $match_id, $team_id, $position_id));
