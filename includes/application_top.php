@@ -1,6 +1,10 @@
 <?php
 
-require_once(dirname(__FILE__).'/../Mobile_Detect.php');
+include __DIR__. '/../Mobile_Detect.php';
+include __DIR__. '/settings.php';
+include __DIR__ . '/../class.DBPDO.php';
+
+
 $detect = new Mobile_Detect;
 
 if($detect->isMobile() && !$detect->isTablet()) {
@@ -10,6 +14,5 @@ if($detect->isMobile() && !$detect->isTablet()) {
 } else {
 	$user_device = 'desktop';
 }
-
 
 ?>
