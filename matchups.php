@@ -2,29 +2,6 @@
 
 include 'matchups.inc.php';
 
-$table_contents = '';
-
-for($i = 0; $i < 11; $i++) {
-  $table_contents .= '
-     <tr>
-        <td>Venue</td>
-        <td>Team1</td>
-        <td>Team2</td>
-        <td>Team3</td>
-        <td>Team4</td>
-      </tr>
-  ';
-}
-
-/*
-Final logic should be this
-
-foreach($matches as $match) {
-
-}
-
-*/
-
 ?>
 
 <html>
