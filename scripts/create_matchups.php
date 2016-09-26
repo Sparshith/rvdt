@@ -36,9 +36,8 @@ foreach ($matches as $match) {
 	$match_id++;
 }
 
-function InsertEntryInTheDB($round_id, $match_id,$team_id, $position_id) {
+function InsertEntryInTheDB($round_id, $match_id, $team_id, $position_id) {
 	global $DB;
-	// print_r(array($round_id, $match_id, $team_id, $position_id));
 	$DB->execute("
 		INSERT INTO matchups (round_id, match_id, team_id, position_id)
 		VALUES (?,?,?,?);", 
