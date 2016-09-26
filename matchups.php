@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-
 <?php
 
-ini_set('display_errors', 1);
-include 'includes/application_top.php';
-$_title = 'Matchups | RVDT 2016';
-
-
-$table_contents = '';
-
-for($i = 0; $i < 11; $i++) {
-  $table_contents .= '
-     <tr>
-        <td>Venue</td>
-        <td>Team1</td>
-        <td>Team2</td>
-        <td>Team3</td>
-        <td>Team4</td>
-      </tr>
-  ';
-}
-
-/*
-Final logic should be this
-
-foreach($matches as $match) {
-
-}
-
-*/
+include 'matchups.inc.php';
 
 ?>
 
