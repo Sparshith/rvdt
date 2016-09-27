@@ -21,11 +21,11 @@
     .rv-header {
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
+    }
 
-      .current-page {
-          &:hover {
-	        background: #2d2d2d;
-          }
+    .ui.secondary.inverted.menu a.item.current-page {
+          background: rgba(255, 255, 255, 0.08);
+          color: #ffffff !important;
       }
     }
 }
@@ -203,7 +203,7 @@ Styles for background image
 .bg-image {
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   z-index: -1;
   padding-top: 5px;
