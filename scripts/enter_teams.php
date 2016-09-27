@@ -1,5 +1,11 @@
 <?php
 
+/**
+ *	Script to add teams
+ *
+ *  @author Sparshith Sampath <sparshithsampath@gmail.com>
+ */
+
 include __DIR__ . '/../class.DBPDO.php';
 include __DIR__. '/../includes/settings.php';
 
