@@ -1,6 +1,6 @@
 <?php
 
-$url = $_SERVER['REQUEST_URI'];
+$url = isset(parse_url($_SERVER['REQUEST_URI'])['path']) ?  parse_url($_SERVER['REQUEST_URI'])['path'] : '';
 
 ?>
 <div class="ui container rv-header <?php echo ($user_device != 'mobile')  ? 'mbot10' : ''; ?>">
