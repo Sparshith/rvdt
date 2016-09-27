@@ -1,7 +1,6 @@
 <?php
 
 include 'includes/application_top.php';
-$_title = 'Matchups | RVDT 2016';
 $DB = new DBPDO();
 
 $round_id = isset($_GET['round_id']) && $_GET['round_id'] ? (int) $_GET['round_id'] : 1;
@@ -11,6 +10,8 @@ $teams_raw_data =  $DB->fetchAll("SELECT * FROM `teams`");
 $venues_raw_data =  $DB->fetchAll("SELECT * FROM `venues`");
 $total_rounds = 5;
 
+$round_header = 'Round '. $round_id;
+$_title = $round_header . ' | RVDT 2016';
 
 $teams = array();
 foreach ($teams_raw_data as $data) {

@@ -11,7 +11,7 @@ include 'matchups.inc.php';
         <?php include 'includes/header.php'; ?>
         <div class="mr10 mtop20 <?php echo $user_device == 'mobile' ? 'ml10 mbot10' : ''; ?>">
             <div class="ui header <?php echo $user_device == 'desktop' ? 'large' : ''; ?>">
-                Round 1
+               <?php echo $round_header; ?>
             </div>
         </div>
         <table class="ui celled table">
