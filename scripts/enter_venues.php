@@ -11,11 +11,11 @@ include __DIR__. '/../includes/settings.php';
 
 $DB = new DBPDO();
 
-$venues_raw_data = explode(PHP_EOL, trim(file_get_contents('Data/venues1-main.dat')));
+$venues_raw_data = explode(PHP_EOL, trim(file_get_contents('Data/venues4-main.dat')));
 foreach ($venues_raw_data as $data) {
 	$venues_data  = explode(' ', $data, 2);
-	InsertEntryInTheDB($venues_data[0], $venues_data[1]);
-	echo 'Finished inserting venue: '. $venues_data[1] . ' with venue_id: '. $venues_data[0] . PHP_EOL;
+	InsertEntryInTheDB($venues_data[0], trim($venues_data[1]));
+	echo 'Finished inserting venue: '. trim($venues_data[1]) . ' with venue_id: '. $venues_data[0] . PHP_EOL;
 }
 
 

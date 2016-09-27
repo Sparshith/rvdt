@@ -11,12 +11,12 @@ include __DIR__. '/../includes/settings.php';
 
 $DB = new DBPDO();
 
-$path_to_xml = __DIR__. '/../data/debates1-main.xml';
+$round_id = 5;
+$path_to_xml = __DIR__. '/../data/debates'.$round_id.'-main.xml';
 $xml = simplexml_load_file($path_to_xml);
 $matches = $xml->debate;
 
 
-$round_id = 1;
 $match_id = 1;
 foreach ($matches as $match) {
 	$teams = $match->team;
