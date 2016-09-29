@@ -1,9 +1,9 @@
 <?php
 
-include __DIR__. '/../Mobile_Detect.php';
-include __DIR__. '/settings.php';
+include __DIR__ . '/../Mobile_Detect.php';
+include __DIR__ . '/settings.php';
 include __DIR__ . '/../class.DBPDO.php';
-
+include __DIR__ . '/analyticstracking.php';
 
 $detect = new Mobile_Detect;
 
