@@ -25,17 +25,16 @@ foreach ($venues_raw_data as $data) {
 
 $matchups = array();
 foreach ($matchups_raw_data as $data) {
-  $matchups[$data['match_id']][$data['position_id']] = $data['team_id']; 
-  $matchups[$data['match_id']]['venue_id'] = $data['venue_id'];
+  $matchups[$data['venue_id']][$data['position_id']] = $data['team_id'];
 }
 
 
 $table_contents = '';
 
-foreach($matchups as $matchup) {
+foreach($matchups as $venue_id => $matchup) {
     $table_contents .= '
         <tr>
-            <td>'.$venues[$matchup['venue_id']].'</td>
+            <td>'.$venues[$venue_id].'</td>
             <td>'.$teams[$matchup[1]].'</td>
             <td>'.$teams[$matchup[2]].'</td>
             <td>'.$teams[$matchup[3]].'</td>
