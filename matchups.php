@@ -22,6 +22,7 @@ include 'matchups.inc.php';
                     <th>Opening Oppposition</th>
                     <th>Closing Government</th>
                     <th>Closing Opposition</th>
+                    <th>Judges</th>
                 </tr>
             </thead>
             <tbody>

@@ -6,8 +6,12 @@ $DB = new DBPDO();
 $round_id = isset($_GET['round_id']) && $_GET['round_id'] ? (int) $_GET['round_id'] : 1;
 
 $matchups_raw_data = $DB->fetchAll("SELECT * FROM `matchups` WHERE round_id = ? ORDER BY venue_id, position_id", array($round_id));
+$judges_raw_data = $DB->fetchAll("SELECT * FROM `matches_judges` WHERE round_id = ? ORDER BY venue_id", array($round_id));
 $teams_raw_data =  $DB->fetchAll("SELECT * FROM `teams`");
 $venues_raw_data =  $DB->fetchAll("SELECT * FROM `venues`");
+$judges_raw_data = $DB->fetchAll("SELECT * FROM `matches_judges` WHERE round_id = ?", array($round_id));
+$judges_mapping_data = $DB->fetchAll("SELECT * FROM `judges`");
+
 $total_rounds = 5;
 
 $round_header = 'Round '. $round_id;
@@ -28,10 +32,28 @@ foreach ($matchups_raw_data as $data) {
   $matchups[$data['venue_id']][$data['position_id']] = $data['team_id'];
 }
 
+$judges_mapping = array();
+foreach ($judges_mapping_data as $data) {
+    $judges_mapping[$data['adj_id']] = $data['adj_name'];
+}
+
+$judges = array();
+/*
+    Shady logic to recognize chairs, pls change.
+*/
+foreach ($judges_raw_data as $data) {
+    if(!isset($judges[$data['venue_id']])) {
+        $judges[$data['venue_id']][] = "<b>".$judges_mapping[$data['adj_id']]. "</b>";
+    } else {
+        $judges[$data['venue_id']][] = $judges_mapping[$data['adj_id']];
+    }
+}
+
 
 $table_contents = '';
 
 foreach($matchups as $venue_id => $matchup) {
+    $judges_str = implode(", ", $judges[$venue_id]);
     $table_contents .= '
         <tr>
             <td>'.$venues[$venue_id].'</td>
@@ -39,13 +61,14 @@ foreach($matchups as $venue_id => $matchup) {
             <td>'.$teams[$matchup[2]].'</td>
             <td>'.$teams[$matchup[3]].'</td>
             <td>'.$teams[$matchup[4]].'</td>
+            <td>'.$judges_str.'</td>
         </tr>
     ';
 }
 
 $table_footer =
 '<tr>
-    <th colspan="5">
+    <th colspan="6">
         <div class="ui right floated pagination menu">';
 
 if($round_id !== 1) {
