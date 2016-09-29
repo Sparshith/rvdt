@@ -15,9 +15,8 @@ $round_id = 5;
 $path_to_xml = __DIR__. '/../data/debates'.$round_id.'-main.xml';
 $xml = simplexml_load_file($path_to_xml);
 $matches = $xml->debate;
+$adjudicators = $xml->adjudicators;
 
-
-$match_id = 1;
 foreach ($matches as $match) {
 	$teams = $match->team;
 	$venue_id = (int) $match->attributes()->venue;
@@ -31,19 +30,18 @@ foreach ($matches as $match) {
 	*/
 	foreach ($teams as $team) {
 		$team_id = (int) $team->attributes()->id;
-		InsertEntryInTheDB($round_id, $match_id, $team_id, $position_id, $venue_id);
+		InsertEntryInTheDB($round_id, $team_id, $position_id, $venue_id);
 		$position_id++;
 	}
-	echo 'Finished inserting matchup: '. $match_id . PHP_EOL;
-	$match_id++;
+	echo 'Finished inserting matchup: '. $venue_id . PHP_EOL;
 }
 
-function InsertEntryInTheDB($round_id, $match_id, $team_id, $position_id, $venue_id) {
+function InsertEntryInTheDB($round_id, $team_id, $position_id, $venue_id) {
 	global $DB;
 	$DB->execute("
-		INSERT INTO matchups (round_id, match_id, team_id, position_id, venue_id)
-		VALUES (?,?,?,?,?);", 
-		array($round_id, $match_id, $team_id, $position_id, $venue_id)
+		INSERT INTO matchups (round_id, team_id, position_id, venue_id)
+		VALUES (?,?,?,?);", 
+		array($round_id, $team_id, $position_id, $venue_id)
 	);
 }
 

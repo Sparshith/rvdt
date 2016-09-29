@@ -5,7 +5,7 @@ $DB = new DBPDO();
 
 $round_id = isset($_GET['round_id']) && $_GET['round_id'] ? (int) $_GET['round_id'] : 1;
 
-$matchups_raw_data = $DB->fetchAll("SELECT * FROM `matchups` WHERE round_id = ? ORDER BY match_id, position_id", array($round_id));
+$matchups_raw_data = $DB->fetchAll("SELECT * FROM `matchups` WHERE round_id = ? ORDER BY venue_id, position_id", array($round_id));
 $teams_raw_data =  $DB->fetchAll("SELECT * FROM `teams`");
 $venues_raw_data =  $DB->fetchAll("SELECT * FROM `venues`");
 $total_rounds = 5;
