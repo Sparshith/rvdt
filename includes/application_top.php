@@ -4,6 +4,9 @@ include __DIR__ . '/../Mobile_Detect.php';
 include __DIR__ . '/settings.php';
 include __DIR__ . '/../class.DBPDO.php';
 include __DIR__ . '/analyticstracking.php';
+include __DIR__ . '/../vendor/autoload.php';
+include __DIR__.'/../config/config.php';
+
 
 $detect = new Mobile_Detect;
 

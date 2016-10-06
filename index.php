@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-
-<?php
-
-ini_set('display_errors', 1);
-include 'includes/application_top.php';
-$_title = 'RV Debating Tournament 2016';
-
-?>
-
+<?php include 'index.inc.php'; ?>
 <html>
 <?php include 'meta.php'; ?>
 <body class="wrapper">
@@ -18,7 +9,7 @@ $_title = 'RV Debating Tournament 2016';
         <div class="bg-image">
             <div class="bg-content">
                 <h1 class="ui header" style="font-size:2.5em;letter-spacing:1px;color:#f3f3f3">
-                    RV Debating Tournament 2016
+                    <?php echo $header ?>
                 </h1>
                 <h2>
                     16th to 18th September
