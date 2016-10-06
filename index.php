@@ -1,15 +1,14 @@
 <?php include 'index.inc.php'; ?>
 <html>
 <?php include 'meta.php'; ?>
-<body class="wrapper">
+<body>
+<?php include 'includes/header.php';?>
+<div class="wrapper">
     <div class="pusher">
-      <?php
-        include 'includes/header.php';
-      ?>
         <div class="bg-image">
             <div class="bg-content">
                 <h1 class="ui header" style="font-size:2.5em;letter-spacing:1px;color:#f3f3f3">
-                    <?php echo $header ?>
+                    <?php echo $header; ?>
                 </h1>
                 <h2>
                     16th to 18th September
@@ -64,5 +63,6 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
