@@ -3,7 +3,7 @@
 include 'includes/application_top.php';
 
 $DB = new DBPDO();
-$teams_raw_data =  $DB->fetchAll("SELECT * FROM `teams`");
+$teams_raw_data =  $DB->fetchAll("SELECT * FROM `teams` ORDER BY team_name");
 $_title =  'Teams | RVDT 2016';
 
 $teams = array();
