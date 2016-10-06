@@ -4,15 +4,15 @@ $url = isset(parse_url($_SERVER['REQUEST_URI'])['path']) ?  parse_url($_SERVER['
 
 ?>
 <div class="ui container rv-header <?php echo ($user_device != 'mobile')  ? 'mbot10' : ''; ?>">
-    <div class="ui large secondary inverted pointing menu">
+    <div class="ui large secondary inverted pointing menu wrapper">
         <a class="toc item ln30">
           <i class="sidebar icon"></i>
         </a>
-        <a href="/" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'current-page': ''; ?>">Home</a>
+        <a href="/" style="border-left:1px solid #3d3d3d" class="item ln30 <?php echo ($url == '/' || $url == '' || $url == '/index') ? 'current-page': ''; ?>">Home</a>
         <a href="/matchups" class="item ln30 <?php echo ($url == '/matchups') ? 'current-page': ''; ?>">Matchups</a>
         <a href="/teams" class="item ln30">Teams</a>
-        <a href="/judges" class="item ln30">Judges</a>
-      <div class="right item">
+        <a href="/judges" style="border-right:1px solid #3d3d3d" class="item ln30">Judges</a>
+      <div class="right item" style="padding-right:0px">
         <div class=mr10>
           <a class="ui inverted button">Contact</a>
         </div>

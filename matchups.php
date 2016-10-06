@@ -6,9 +6,10 @@ include 'matchups.inc.php';
 
 <html>
 <?php include 'meta.php'; ?>
-<body class="wrapper">
+<body>
+<?php include 'includes/header.php'; ?>
+<div class="wrapper">
     <div class="pusher">
-        <?php include 'includes/header.php'; ?>
         <div class="mr10 mtop20 <?php echo $user_device == 'mobile' ? 'ml10 mbot10' : ''; ?>">
             <div class="ui header <?php echo $user_device == 'desktop' ? 'large' : ''; ?>">
                <?php echo $round_header; ?>
@@ -33,6 +34,6 @@ include 'matchups.inc.php';
             </tfoot>
         </table>
     </div>
-
+</div>
 </body>
 </html>
