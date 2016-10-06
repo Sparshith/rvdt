@@ -66,6 +66,9 @@ h3, h2, h1 {
 	margin-left: 10px;
 }
 
+.ml10i {
+  margin-left: 10px !important;
+}
 .ptop10 {
 	padding-top: 10px;
 }
