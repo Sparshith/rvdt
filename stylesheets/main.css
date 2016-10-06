@@ -1,8 +1,12 @@
+body, h3, h2 {
+  font-family: 'PT Sans', serif;
+}
+
 .wrapper {
 	max-width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #F3F3F3
+	background: #F3F3F3;
 }
 
 
