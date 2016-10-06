@@ -3,3 +3,4 @@
 .htaccess
 test.php
 includes/settings.php
+vendor/
