@@ -17,6 +17,7 @@ foreach ($teams_raw_data as $data) {
 }
 
 $team_name = $teams[$team_id];
+$_title = 'Matchups for Team: '. $team_name;
 
 $venues = array();
 foreach ($venues_raw_data as $data) {
