@@ -20,7 +20,7 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
   <link rel="icon" href="images/logo.png" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=PT+Sans">
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,500,700">
 
   <link rel="stylesheet" type="text/css" href="components/reset.css">
   <link rel="stylesheet" type="text/css" href="components/site.css">
