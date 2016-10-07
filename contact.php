@@ -1,5 +1,8 @@
 <html>
-<?php include 'meta.php'; ?>
+<?php 
+
+include 'includes/application_top.php';
+include 'meta.php'; ?>
 <body>
 <?php include 'includes/header.php';?>
 <div class="wrapper">
