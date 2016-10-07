@@ -7,6 +7,10 @@ h3, h2, h1 {
   font-family: 'PT Sans', serif;
 }
 
+footer {
+  margin-top: 30px;
+}
+
 .wrapper, .ui.secondary.pointing.menu.wrapper {
 	max-width: 1160px;
 	margin-left: auto;
