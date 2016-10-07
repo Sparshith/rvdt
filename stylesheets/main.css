@@ -7,16 +7,43 @@ h3, h2, h1 {
   font-family: 'PT Sans', serif;
 }
 
+footer {
+  margin-top: 30px;
+}
+
 .wrapper, .ui.secondary.pointing.menu.wrapper {
 	max-width: 1160px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.social-icon {
+    background: #2d2d2d;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px !important;
+    padding: 0 !important;
+    display: inline-block !important;
+    margin: 4px;
+}
+
+.social-icon i {
+  font-size: 20px;
+  margin-left: 4px !important;
+}
+
 
 .rv-header {
 	width: 100% !important;
 	background: #1b1c1d;
+}
+
+.rv-footer {
+  width: 100% !important;
+  background: #1b1c1d;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 700px) {
