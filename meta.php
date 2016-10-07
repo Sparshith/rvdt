@@ -30,6 +30,7 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
   <link rel="stylesheet" type="text/css" href="components/header.css">
   <link rel="stylesheet" type="text/css" href="components/image.css">
   <link rel="stylesheet" type="text/css" href="components/menu.css">
+  <link rel="stylesheet" type="text/css" href="components/card.css">
 
   <link rel="stylesheet" type="text/css" href="components/divider.css">
   <link rel="stylesheet" type="text/css" href="components/dropdown.css">
@@ -68,7 +69,7 @@ $title = isset($_title) && $_title ? $_title : 'RVDT 2016';
       ;
 
      $('.countdown-styled').countdown({
-        date: "September 30, 2016 15:03:26",
+        date: "September 30, 2020 15:03:26",
         render: function(data) {
           var el = $(this.el);
           el.empty()
