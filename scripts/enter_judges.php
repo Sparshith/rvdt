@@ -18,17 +18,17 @@ $judges = $xml->adjud;
 foreach ($judges as $judge) {
 	$adj_id = (int) $judge->attributes()->id;
 	$adj_name = (string) $judge->attributes()->name; 
-	InsertEntryInTheDB($adj_id, $adj_name);
+	$institution = (string) $judge->attributes()->home;
+	InsertEntryInTheDB($adj_id, $adj_name, $institution);
 	echo 'Finished inserting judge: '. $adj_name . ' with adj_id: '. $adj_id . PHP_EOL;
 }
 
 
-function InsertEntryInTheDB($adj_id, $adj_name) {
-	print_r(array($adj_id, $adj_name));
+function InsertEntryInTheDB($adj_id, $adj_name, $institution) {
 	global $DB;
 	$DB->execute("
-		INSERT INTO judges (adj_id, adj_name)
-		VALUES (?,?);", 
-		array($adj_id, $adj_name)
+		INSERT INTO judges (adj_id, adj_name, institution)
+		VALUES (?,?,?);", 
+		array($adj_id, $adj_name, $institution)
 	);
 }
