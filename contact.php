@@ -1,4 +1,4 @@
-<?
+<?php
 include 'contact.inc.php';
 include 'meta.php'; 
 ?>
