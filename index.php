@@ -25,7 +25,7 @@
                 <div class="ui divider"></div>
                 <div class="matchups-containter">
                     <h3 class="ui header">Matchups for the current round</h3>
-                    <p>Do you want to look at your matchup without having to tackle down the obnoxious tall person who randomly stands up and in mid-air, spot your match while the screen scrolls away to glory?</p>
+                    <p>See matchups easily. Also responsive for mobile devices. </p>
                     <a href="/matchups" class="ui large button">See matchups</a>
                 </div>
             </div>
