@@ -13,7 +13,7 @@ include 'meta.php';
             </div>
         </div>
     </div>
-    <div class="ui small header">
+    <div class="ui small header <?php echo $user_device == 'mobile' ? 'ml10i' : ''; ?>">
     	Day 1
     </div>
     <table class="ui celled table">
@@ -42,7 +42,7 @@ include 'meta.php';
                	</tr>
             </tbody>
     </table>
-    <div class="ui small header">
+    <div class="ui small header <?php echo $user_device == 'mobile' ? 'ml10i' : ''; ?>">
     	Day 2
     </div>
     <table class="ui celled table">
@@ -67,7 +67,7 @@ include 'meta.php';
                	</tr>
             </tbody>
     </table>
-    <div class="ui small header">
+    <div class="ui small header <?php echo $user_device == 'mobile' ? 'ml10i' : ''; ?>">
     	Day 3
     </div>
     <table class="ui celled table">
