@@ -26,7 +26,7 @@
         <h4 class="ui inverted teal header">Adopt/Contribute</h4>
         <p>If you want a similar site for your tournament and/or wish to contribute to this project</p>
         <a href="mailto:sparshithsampath@gmail.com?Subject=Debate%20website" target="_top">
-          <button type="submit" class="ui large teal button">Contact the devloper</button>
+          <button type="submit" class="ui large teal button">Contact the developer</button>
         </a>
       </div>
     </div>
