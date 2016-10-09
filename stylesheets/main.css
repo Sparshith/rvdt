@@ -170,6 +170,9 @@ footer {
   .secondary.pointing.menu .toc.item {
     display: block;
   }
+  .ui.table {
+    border-radius: 0px;
+  }
 }
 
 /*

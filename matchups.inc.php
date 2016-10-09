@@ -65,10 +65,12 @@ foreach($matchups as $venue_id => $matchup) {
     ';
 }
 
+$footer_class = $user_device != 'mobile' ? 'right floated' : '';
+
 $table_footer =
 '<tr>
     <th colspan="6">
-        <div class="ui right floated pagination menu">';
+        <div class="ui pagination '. $footer_class .' menu">';
 
 if($round_id !== 1) {
     $prev_round = $round_id - 1;
