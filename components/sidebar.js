@@ -997,8 +997,8 @@ $.fn.sidebar.settings = {
 
   selector: {
     fixed   : '.fixed',
-    omitted : 'script, link, style, .ui.modal, .ui.dimmer, .ui.nag, .ui.fixed',
-    pusher  : '.pusher',
+    omitted : 'script, link, style, .ui.modal, .ui.dimmer, .ui.nag, .ui.fixed, .toc.item',
+    pusher  : '.pusher, .toc.item',
     sidebar : '.ui.sidebar'
   },
 
