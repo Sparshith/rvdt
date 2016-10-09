@@ -1,8 +1,8 @@
+<?
+include 'contact.inc.php';
+include 'meta.php'; 
+?>
 <html>
-<?php 
-
-include 'includes/application_top.php';
-include 'meta.php'; ?>
 <body>
 <?php include 'includes/header.php';?>
 <div class="wrapper">
