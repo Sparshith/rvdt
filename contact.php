@@ -17,7 +17,7 @@ include 'meta.php';
 				    <img style="max-height: 174px;" src="images/advesh.jpg">
 				  </div>
 				  <div class="content">
-				    <a class="header">Advesh Jalan</a>
+				    <a class="header">Akashraj</a>
 				    <div class="meta">
 				      <span>Tournament director</span>
 				    </div>
@@ -25,7 +25,7 @@ include 'meta.php';
 				  <div class="extra content">
 				    <a>
 				      <i class="call icon"></i>
-				     	+91 99161 02405
+				     	
 				    </a>
 				  </div>
 				</div>
@@ -36,7 +36,7 @@ include 'meta.php';
 				    <img style="max-height: 174px;" src="images/mayank.jpg">
 				  </div>
 				  <div class="content">
-				    <a class="header">Mayank Sharma</a>
+				    <a class="header">Sameeksha</a>
 				    <div class="meta">
 				      <span>Joint Tournament Director</span>
 				    </div>
@@ -44,7 +44,7 @@ include 'meta.php';
 				  <div class="extra content">
 				    <a>
 				      <i class="call icon"></i>
-				      +91 97422 90014
+				      
 				    </a>
 				  </div>
 				</div>

@@ -26,11 +26,11 @@ include 'meta.php';
             <tbody>
                	<tr>
                		<td> 10 AM </td>
-               		<td> Registration </td>
+               		<td> Registration Begins</td>
                	</tr>
                	<tr>
                		<td> 12 PM </td>
-               		<td> Adj test </td>
+               		<td> Adj test Starts</td>
                	</tr>
                	<tr>
                		<td> 3 PM  </td>
@@ -88,7 +88,7 @@ include 'meta.php';
                	</tr>
                	<tr>
                		<td> 3 PM  </td>
-               		<td> Finals</td>
+               		<td> Grand Finals</td>
                	</tr>
                	<tr>
                		<td> 6 PM  </td>

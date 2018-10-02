@@ -15,8 +15,8 @@
             <thead>
                 <tr>
                     <th>Team</th>
-                    <th>Speaker 1</th>
-                    <th>Speaker 2 </th>
+                    <th>1st Speaker</th>
+                    <th>2nd Speaker</th>
                 </tr>
             </thead>
             <tbody>
