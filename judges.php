@@ -14,7 +14,7 @@
     <table class="ui celled table">
             <thead>
                 <tr>
-                    <th>Judge</th>
+                    <th>Adjudicator</th>
                     <th>Institution</th>
                 </tr>
             </thead>
